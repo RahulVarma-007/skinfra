@@ -1,0 +1,79 @@
+{
+  "projects": [
+    {
+      "id": "aurelia-reserve",
+      "name": "Aurelia Reserve",
+      "category": "Luxury Residences",
+      "status": "Launching Towers",
+      "location": "Jubilee Hills, Hyderabad",
+      "priceRange": "From Rs. 2.8 Cr",
+      "handover": "Phase handover Q2 2027",
+      "residences": "3 and 4 bed sky homes",
+      "signatureAmenity": "Private sky lounge and wellness deck",
+      "description": "Aurelia Reserve blends elevated skyline views with quiet luxury, offering spacious residences, landscaped arrival courts, and a hospitality-inspired clubhouse experience for modern families.",
+      "features": [
+        "Infinity edge pool",
+        "Porte cochere entry",
+        "Concierge lobby",
+        "EV charging bays"
+      ],
+      "image": "/projects/aurelia-reserve.svg",
+      "manager": {
+        "name": "Rohan Mehta",
+        "role": "Senior Sales Manager",
+        "phone": "+91 98765 43210",
+        "email": "rohan@projectsestates.com"
+      }
+    },
+    {
+      "id": "verdant-cove",
+      "name": "Verdant Cove",
+      "category": "Nature Villas",
+      "status": "Ongoing Construction",
+      "location": "Whitefield Extension, Bengaluru",
+      "priceRange": "From Rs. 1.95 Cr",
+      "handover": "Expected delivery Q4 2026",
+      "residences": "4 bed courtyard villas",
+      "signatureAmenity": "Forest trail and clubhouse spa",
+      "description": "Verdant Cove is designed as a low-density villa community with green corridors, private gardens, and warm material palettes that keep each home connected to the landscape.",
+      "features": [
+        "Private garden deck",
+        "Clubhouse spa",
+        "Jogging forest trail",
+        "Kids exploration park"
+      ],
+      "image": "/projects/verdant-cove.svg",
+      "manager": {
+        "name": "Neha Kapoor",
+        "role": "Villa Portfolio Manager",
+        "phone": "+91 98111 24862",
+        "email": "neha@projectsestates.com"
+      }
+    },
+    {
+      "id": "harbor-47",
+      "name": "Harbor 47",
+      "category": "Urban Apartments",
+      "status": "Pre-Launch Inventory",
+      "location": "Powai, Mumbai",
+      "priceRange": "From Rs. 1.42 Cr",
+      "handover": "Tower rollout Q1 2028",
+      "residences": "2 and 3 bed residences",
+      "signatureAmenity": "Rooftop cinema and co-work deck",
+      "description": "Harbor 47 brings young urban buyers into a sharply curated residential address with connected work lounges, sunset decks, and compact luxury planning across every tower level.",
+      "features": [
+        "Sky cinema terrace",
+        "Work-from-home lounge",
+        "Indoor games studio",
+        "Pet walk court"
+      ],
+      "image": "/projects/harbor-47.svg",
+      "manager": {
+        "name": "Aarav Shah",
+        "role": "Urban Projects Lead",
+        "phone": "+91 98989 55421",
+        "email": "aarav@projectsestates.com"
+      }
+    }
+  ]
+}

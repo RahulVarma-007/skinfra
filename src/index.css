@@ -1,0 +1,68 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #23313a;
+  background:
+    radial-gradient(circle at top left, rgba(255, 235, 214, 0.95), transparent 35%),
+    linear-gradient(160deg, #f6efe7 0%, #e6efe9 48%, #dde8ef 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --text-primary: #24313a;
+  --text-secondary: #52626e;
+  --text-muted: #7a8a96;
+  --panel-bg: rgba(255, 255, 255, 0.44);
+  --panel-border: rgba(255, 255, 255, 0.52);
+  --panel-shadow:
+    0 24px 60px rgba(31, 41, 55, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+body,
+button,
+a {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: 0;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
