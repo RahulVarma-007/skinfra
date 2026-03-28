@@ -1,13 +1,24 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
 
 export const fetchProjects = createAsyncThunk('projects/fetchProjects', async () => {
-  const response = await fetch('/data/projects.json')
+  const response = await fetch(`${import.meta.env.BASE_URL}data/projects.json`)
 
   if (!response.ok) {
     throw new Error('Project data could not be loaded.')
   }
 
-  return response.json()
+  const data = await response.json()
+  const baseUrl = import.meta.env.BASE_URL
+
+  return {
+    ...data,
+    projects: data.projects.map((project) => ({
+      ...project,
+      image: project.image.startsWith('/')
+        ? `${baseUrl}${project.image.slice(1)}`
+        : `${baseUrl}${project.image}`,
+    })),
+  }
 })
 
 const projectsSlice = createSlice({
